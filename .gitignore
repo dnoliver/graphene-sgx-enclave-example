@@ -2,3 +2,8 @@
 *.so
 .vscode
 .bash_history
+*.manifest
+*.manifest.sgx
+*.token
+*.sig
+OUTPUT

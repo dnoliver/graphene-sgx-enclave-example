@@ -45,4 +45,8 @@ RUN apt-get update && apt-get install -y \
     nodejs \
     npm
 
-CMD bash
+COPY . /root
+
+WORKDIR /root
+
+CMD make SGX=1 check

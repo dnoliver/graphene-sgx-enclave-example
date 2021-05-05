@@ -1,5 +1,9 @@
 # Graphene SGX Enclave Example
 
+This is a simplified version of the Graphene SGX
+[nodejs](https://github.com/oscarlab/graphene/tree/master/Examples/nodejs) example, that runs in a
+container.
+
 ## Build
 
 ```shell
